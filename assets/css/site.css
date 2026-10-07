@@ -131,7 +131,7 @@ th { font-weight: 600; }
 @media (min-width: 820px) { .hero-studio .wrap { grid-template-columns: 1.1fr .9fr; } }
 .hero-studio .logo-big { width: min(380px, 80vw); margin: 0 auto; filter: drop-shadow(0 12px 24px rgba(0, 0, 0, .12)); }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .logo-disc { background: #fffdf8; border-radius: 50%; padding: 6%; }
+  :root:not([data-theme="light"]) .hero-studio .logo-big { filter: drop-shadow(0 0 28px rgba(255, 194, 26, .22)); }
 }
 
 .feature-game { display: grid; text-decoration: none; color: inherit; }
@@ -161,7 +161,7 @@ details.faq .answer p:last-child { margin-bottom: 0; }
 .factsheet th { width: 34%; color: var(--ink-soft); font-weight: 500; }
 .download-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
 .download-grid figure { margin: 0; }
-.download-grid img { border-radius: 10px; border: 1px solid var(--line); aspect-ratio: 16 / 10; object-fit: cover; width: 100%; background: #fff; }
+.download-grid img { border-radius: 10px; border: 1px solid var(--line); aspect-ratio: 16 / 10; object-fit: cover; width: 100%; background: var(--bg-alt); }
 .download-grid figcaption { font-size: .9rem; margin-top: 6px; }
 
 .contact-box { font-size: 1.15rem; padding: 22px 24px; }
