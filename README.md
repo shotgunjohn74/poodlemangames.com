@@ -57,3 +57,15 @@ directly from disk won't load the styles.)
   `games/paperheroes/index.html` for links to
   `https://play.google.com/store/apps/details?id=com.poodlemangames.paperheroes`
   (there's a comment by the first one), and post on `news/`.
+
+## Contact email
+
+The address is never written as plain text in the HTML, so spam bots can't
+harvest it. Each link is `<a class="js-email" data-e="...">` holding the address
+reversed with `#` in place of `@`; `assets/js/email.js` turns it back into a
+working `mailto:` link in the browser (pages using it load that script at the
+end of `<body>`). To change the address, regenerate the value:
+
+```bash
+python -c "print('new@example.com'.replace('@','#')[::-1])"
+```
