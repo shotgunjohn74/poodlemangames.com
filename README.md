@@ -1,6 +1,6 @@
 # poodlemangames.com
 
-The Poodleman Games website: a plain static site (HTML + CSS, no build step),
+The Poodleman Games LLC website: a plain static site (HTML + CSS, no build step),
 hosted on GitHub Pages at **https://poodlemangames.com**.
 
 ## Layout

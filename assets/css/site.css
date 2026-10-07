@@ -1,4 +1,4 @@
-/* Poodleman Games: studio-wide styles.
+/* Poodleman Games LLC: studio-wide styles.
    Each game section adds its own theme on top (see paperheroes.css). */
 
 :root {
@@ -165,4 +165,4 @@ details.faq .answer p:last-child { margin-bottom: 0; }
 .download-grid figcaption { font-size: .9rem; margin-top: 6px; }
 
 .contact-box { font-size: 1.15rem; padding: 22px 24px; }
-.contact-box a { font-weight: 600; word-break: break-all; }
+.contact-box a { font-weight: 600; display: inline-block; overflow-wrap: anywhere; }
