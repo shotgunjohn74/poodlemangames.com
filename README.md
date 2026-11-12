@@ -53,10 +53,9 @@ directly from disk won't load the styles.)
   (AdMob looks for `app-ads.txt` at the root of this domain.)
 - Check `https://poodlemangames.com/app-ads.txt` loads, then in AdMob → **Apps → app-ads.txt**
   wait for the crawl (can take up to 24 hours after the Play listing shows the website).
-- When the Play listing goes live, swap the "Coming soon" buttons on
-  `games/paperheroes/index.html` for links to
-  `https://play.google.com/store/apps/details?id=com.poodlemangames.paperheroes`
-  (there's a comment by the first one), and post on `news/`.
+- The Play listing is live (12 November 2026): `https://play.google.com/store/apps/details?id=com.poodlemangames.paperheroes`.
+  It's linked from the game page (hero button and "Choose your platform"), the
+  home page, the FAQ, the press kit and the news post.
 
 ## Contact email
 
