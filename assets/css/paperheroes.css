@@ -153,6 +153,12 @@ section[id] { scroll-margin-top: 56px; }
 .biome h3 { font-family: var(--ph-display); font-size: 1.45rem; margin: 0; text-shadow: 0 2px 0 rgba(0, 0, 0, .45); }
 .biome p { margin: 0; font-size: .95rem; opacity: .92; line-height: 1.4; }
 
+/* ---------- the trailer: a print pinned up like the screenshots ---------- */
+.trailer { max-width: 1040px; margin: 0 auto; background: var(--ph-paper); padding: 12px 12px 10px; border-radius: 2px; box-shadow: 0 10px 24px rgba(0, 0, 0, .6); transform: rotate(-.4deg); }
+.trailer video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #000; }
+.trailer figcaption { font: 400 1.1rem/1.2 var(--ph-display); color: var(--ph-paper-ink); text-align: center; padding-top: 8px; }
+@media (prefers-reduced-motion: reduce) { .trailer { transform: none; } }
+
 /* ---------- screenshots ---------- */
 .shots { display: grid; gap: 26px 20px; }
 @media (min-width: 640px) { .shots { grid-template-columns: repeat(2, 1fr); } }
